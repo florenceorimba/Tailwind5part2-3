@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background: var(--body-grad);
+  color: hsl(var(--foregr));
+}
+
+.bg-img {
+  background-image: url(https://dev-wsp.orderific.com/signin.png);
+  background-color: var(--img-bg);
+}
+
+.bg-img1 {
+  background-color: var(--img-bg);
+}
+:root {
+  --bod: 0 0% 89.8%;
+  --foregr: 0 0% 3.9%;
+  --body-grad: linear-gradient(50deg, rgba(255, 85, 51, 0.12) 60%, rgba(0, 0, 0, 0.08) 70%);
+  --img-bg: rgba(255, 85, 51, 0.5);
+}
